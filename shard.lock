@@ -1,0 +1,22 @@
+version: 1.0
+shards:
+  icr:
+    github: greyblake/crystal-icr
+    commit: 898305c0787044ee5f8076d86e26ffe08c6c4e15
+
+  kemal:
+    github: kemalcr/kemal
+    commit: 1c527c2d94b032765fcb40640984c18b3b218f83
+
+  kilt:
+    github: jeromegn/kilt
+    version: 0.3.3
+
+  radix:
+    github: luislavena/radix
+    version: 0.3.8
+
+  redis:
+    github: stefanwille/crystal-redis
+    version: 1.8.0
+
