@@ -11,3 +11,5 @@ dependencies:
   icr:
     github: greyblake/crystal-icr
     branch: master
+  dotenv:
+    github: gdotdesign/cr-dotenv

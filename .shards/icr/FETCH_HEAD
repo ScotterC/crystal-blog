@@ -1,0 +1,44 @@
+cf2b4c3fa15bf3e01cddec87e3ee2c4bdcf2f15f	not-for-merge	branch 'fix-travis' of https://github.com/greyblake/crystal-icr
+5988d0222b490e19745fd312db1a3bf03491d92f	not-for-merge	branch 'fix-travis-2' of https://github.com/greyblake/crystal-icr
+898305c0787044ee5f8076d86e26ffe08c6c4e15	not-for-merge	branch 'master' of https://github.com/greyblake/crystal-icr
+4bc8b51783ef890938ad7f4ce1717d0bac725ea7	not-for-merge	branch 'reduce-dependecies' of https://github.com/greyblake/crystal-icr
+71f8d0ea835f903837eb8fa3f8d09f2fe559ad70	not-for-merge	branch 'travis2' of https://github.com/greyblake/crystal-icr
+6654b3c774996cfd98b7b49f82011b86d1139d3a	not-for-merge	'refs/pull/10/head' of https://github.com/greyblake/crystal-icr
+45db5e0ca08c2e95bd15d93b459ab95ce3e561e0	not-for-merge	'refs/pull/15/head' of https://github.com/greyblake/crystal-icr
+c9d0bf71ca321abebd620f2d8d9829c09ccbf171	not-for-merge	'refs/pull/18/head' of https://github.com/greyblake/crystal-icr
+28aafc114ff349b41b87a1cc2f12c0424f3fe51a	not-for-merge	'refs/pull/19/head' of https://github.com/greyblake/crystal-icr
+578ef5d1a4a2e01a14e4b114d07cffc87fa6c6f1	not-for-merge	'refs/pull/20/head' of https://github.com/greyblake/crystal-icr
+0fad1afd64850f3db7eaea94eebdbf264a80f96e	not-for-merge	'refs/pull/21/head' of https://github.com/greyblake/crystal-icr
+7cb36d1f41346c50cc20ec15fc529adcc960bc0d	not-for-merge	'refs/pull/22/head' of https://github.com/greyblake/crystal-icr
+0160d09cbe90af5bdb94689f82d1940a3cc3d10c	not-for-merge	'refs/pull/24/head' of https://github.com/greyblake/crystal-icr
+b179a5c4d7ae07c8195073cd80124c3cf1074a33	not-for-merge	'refs/pull/25/head' of https://github.com/greyblake/crystal-icr
+4cf16877d3d078c206c6cd9adaba20ec39ed3338	not-for-merge	'refs/pull/27/head' of https://github.com/greyblake/crystal-icr
+3486b32631f1a47c493a035609158963d37a979a	not-for-merge	'refs/pull/29/head' of https://github.com/greyblake/crystal-icr
+b609b2230e7840daeefe4e5bc9b3b24a063c91e3	not-for-merge	'refs/pull/30/head' of https://github.com/greyblake/crystal-icr
+59a03130aad008ead2e46113307ae18b6536b138	not-for-merge	'refs/pull/32/head' of https://github.com/greyblake/crystal-icr
+9326e13a4b81ba03430a01418656c41a79204d69	not-for-merge	'refs/pull/34/head' of https://github.com/greyblake/crystal-icr
+8329414238ef69b6aba2877e728b75dd5bcebcee	not-for-merge	'refs/pull/36/head' of https://github.com/greyblake/crystal-icr
+4bd2eaec822cb15614ebed61b390e6d23db0a8e9	not-for-merge	'refs/pull/39/head' of https://github.com/greyblake/crystal-icr
+8e0e9fa68ee7034fe043964f7376831349d6f658	not-for-merge	'refs/pull/4/head' of https://github.com/greyblake/crystal-icr
+1011c3baed1319cb1d355599044cbbb93756a4d6	not-for-merge	'refs/pull/4/merge' of https://github.com/greyblake/crystal-icr
+4e3821c5b7f5d3ce24d573ff3410021d011b57b2	not-for-merge	'refs/pull/41/head' of https://github.com/greyblake/crystal-icr
+4c658a0550310b9b82f0f9e92d428b4f30266492	not-for-merge	'refs/pull/41/merge' of https://github.com/greyblake/crystal-icr
+32e402432f0f72b9612f579aa4ad6972197a67e3	not-for-merge	'refs/pull/6/head' of https://github.com/greyblake/crystal-icr
+34434aadd54665dbe4c16bf8c8118b2cd229d3d7	not-for-merge	tag 'v0.1.0' of https://github.com/greyblake/crystal-icr
+135887ed6560ee3f21ee9f922ba8b17f5101af0a	not-for-merge	tag 'v0.1.1' of https://github.com/greyblake/crystal-icr
+528129742b107e055bad7171452954e11b630a62	not-for-merge	tag 'v0.1.2' of https://github.com/greyblake/crystal-icr
+6db76d9f83bb5db26f6c55f3f4e0d9924c21fcfb	not-for-merge	tag 'v0.2.0' of https://github.com/greyblake/crystal-icr
+067478625ba2dc7c88dc9c2ba688be622e3c344a	not-for-merge	tag 'v0.2.1' of https://github.com/greyblake/crystal-icr
+0c75e890a2d851c2a28412a4a9c78f4ba08df182	not-for-merge	tag 'v0.2.10' of https://github.com/greyblake/crystal-icr
+b943c3e41c807acb1688dbd826138206ea102f35	not-for-merge	tag 'v0.2.11' of https://github.com/greyblake/crystal-icr
+6331df0f976962bda6979133f6b7a8e56085a6ae	not-for-merge	tag 'v0.2.12' of https://github.com/greyblake/crystal-icr
+b60190a5d9c5bcbd7614338e3afea3db83b3702f	not-for-merge	tag 'v0.2.13' of https://github.com/greyblake/crystal-icr
+9b9f170f1dac2dd16dc16894681980a24e9a9cbb	not-for-merge	tag 'v0.2.14' of https://github.com/greyblake/crystal-icr
+d613aedaa7a52025a4e7c088d6189bbafddaf7e5	not-for-merge	tag 'v0.2.2' of https://github.com/greyblake/crystal-icr
+f364de6c6b67ce2d6821378f67419d5ea4cb7738	not-for-merge	tag 'v0.2.3' of https://github.com/greyblake/crystal-icr
+e78451cdd85d48dc4bb612e18f104ff7d3d12a37	not-for-merge	tag 'v0.2.4' of https://github.com/greyblake/crystal-icr
+e979bd207d2cc08bf27c21b617a31daa7bdb2672	not-for-merge	tag 'v0.2.5' of https://github.com/greyblake/crystal-icr
+b9b8cf664528343b11c449e3754dc4fb97270851	not-for-merge	tag 'v0.2.6' of https://github.com/greyblake/crystal-icr
+a3c4d8e64af2f370c1aef26b715e77847f8d4058	not-for-merge	tag 'v0.2.7' of https://github.com/greyblake/crystal-icr
+999bb4aa6e4620df552b9295b35108af304bb5cf	not-for-merge	tag 'v0.2.8' of https://github.com/greyblake/crystal-icr
+06ea4a3674b1ba44e0e66b02e303c9041722ee1d	not-for-merge	tag 'v0.2.9' of https://github.com/greyblake/crystal-icr

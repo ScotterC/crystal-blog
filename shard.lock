@@ -1,5 +1,9 @@
 version: 1.0
 shards:
+  dotenv:
+    github: gdotdesign/cr-dotenv
+    commit: 128b50cd440d9302bcdaece6bd4f3731b5c102a0
+
   icr:
     github: greyblake/crystal-icr
     commit: 898305c0787044ee5f8076d86e26ffe08c6c4e15
