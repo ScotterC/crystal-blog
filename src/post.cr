@@ -1,8 +1,5 @@
 require "redis"
 require "json"
-require "dotenv"
-
-Dotenv.load
 
 class Post
   @id    : Int64
@@ -80,7 +77,11 @@ class Post
   end
 
   def self.redis
-    @@redis ||= Redis.new(url: ENV["REDIS_URL"])
+    @@redis ||= if ENV["REDIS_URL"].nil?
+      Redis.new
+    else
+      Redis.new(url: ENV["REDIS_URL"])
+    end
   end
 
   def class_redis_key
