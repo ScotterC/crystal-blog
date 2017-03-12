@@ -1,1 +1,1 @@
-crystal src/app.cr --link-flags -L/usr/local/opt/openssl/lib
+crystal src/crystal-blog.cr --link-flags -L/usr/local/opt/openssl/lib

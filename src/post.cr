@@ -20,6 +20,10 @@ class Post
     end
   end
 
+  def self.count
+    Post.redis.scard(Post.new.class_redis_key)
+  end
+
   def self.find(id)
     post_data = Post.redis.get(Post.new.redis_key(id))
     data = JSON.parse(post_data.as(String))
@@ -53,6 +57,14 @@ class Post
 
     Post.redis.set(redis_key, self.to_json)
     Post.redis.sadd(class_redis_key, redis_key)
+
+    true
+  end
+
+  def destroy
+    Post.redis.del(redis_key)
+    Post.redis.srem(class_redis_key, redis_key)
+    true
   end
 
   def redis_key(arg_id = nil)
@@ -77,10 +89,10 @@ class Post
   end
 
   def self.redis
-    @@redis ||= if ENV["REDIS_URL"].nil?
-      Redis.new
-    else
-      Redis.new(url: ENV["REDIS_URL"])
+    begin
+      @@redis ||= Redis.new(url: ENV["REDIS_URL"])
+    rescue KeyError
+      @@redis ||= Redis.new
     end
   end
 

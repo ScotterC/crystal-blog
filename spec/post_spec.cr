@@ -56,7 +56,23 @@ describe Post do
       posts = Post.all
       posts[0].title.should eq(title)
     end
+  end
 
+  describe ".count" do
+    it "returns count of all posts" do
+      Post.count.should eq(1)
+    end
+  end
+
+  describe "#destroy" do
+    it "removes from db" do
+      post = Post.find(1)
+      Post.redis.exists(post.redis_key).should eq(1)
+      Post.count.should eq(1)
+      post.destroy
+      Post.redis.exists(Post.new.redis_key(1)).should eq(0)
+      Post.count.should eq(0)
+    end
   end
 
 end

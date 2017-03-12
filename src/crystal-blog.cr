@@ -21,23 +21,31 @@ get "/posts/new" do
 end
 
 post "/posts" do |env|
+  puts = "POST METHOD"
   title = env.params.body["title"]
   body = env.params.body["body"]
-
-  # title = env.params.json["title"].as(String)
-  # body = env.params.json["body"].as(String)
   post = Post.new(title: title, body: body)
   post.save
   env.redirect post.redis_key
 end
 
-# put "/posts/:id" do |env|
-  # logic to update a post
-# end
+get "/posts/:id/edit" do |env|
+  id = env.params.url["id"]
+  post = Post.find(id)
+  render "src/views/posts/edit.ecr", "src/views/layouts/layout.ecr"
+end
 
-# delete "/posts/:id" do
-#   # Remove a post
-# end
+put "/posts/:id" do |env|
+  puts "PUT METHOD"
+  puts env.params.body
+end
+
+delete "/posts/:id" do |env|
+  id = env.params.url["id"]
+  post = Post.find(id)
+  post.destroy
+  env.redirect "/#{post.class_redis_key}"
+end
 
 
 Kemal.run

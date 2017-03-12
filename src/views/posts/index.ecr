@@ -19,8 +19,12 @@
         <td><%= post.id %></td>
         <td><%= post.title %></td>
         <td><%= post.body %></td>
-        <td>
-          <a href=<%= post.redis_key %> class="btn btn-default">Show</a>
+        <td width=200>
+          <div class="btn-group pull-right">
+            <a href=<%= "/#{post.redis_key}" %> class="btn btn-danger" data-method="delete" data-confirm="Are you sure?">Delete</a>
+            <a href=<%= "/#{post.redis_key}/edit" %> class="btn btn-default">Edit</a>
+            <a href=<%= "/#{post.redis_key}" %> class="btn btn-default">Show</a>
+          </div>
         </td>
       </tr>
     <% end %>
